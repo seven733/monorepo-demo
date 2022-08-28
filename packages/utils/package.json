@@ -1,0 +1,28 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "前端公用函数库",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc --outDir lib"
+  },
+  "peerDependencies": {
+    "react": "^16.8.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.0",
+    "@types/react": "^16.9.44",
+    "jest": "^26.5.3",
+    "react": "^16.13.1",
+    "typescript": "^3.8.3"
+  }
+}
+
